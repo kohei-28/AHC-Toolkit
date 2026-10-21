@@ -3,13 +3,23 @@
 A small personal toolkit for short AtCoder Heuristic Contests.
 
 ```text
-AHC-Toolkit/
+ahc-short-toolkit/
 |-- README.md
-`-- runner/
-    `-- runner.py
+|-- runner/
+|   `-- runner.py
+`-- template/
+    |-- state_action/
+    |   |-- state_action.cpp
+    |   `-- examples/
+    |       |-- ahc069_example.cpp
+    |       `-- ahc072_example.cpp
+    |-- beam_search/
+    |   `-- basic.cpp
+    `-- hill_climb/
+        `-- basic.cpp
 ```
 
-`runner/` contains a simple local test runner. A separate `template/` directory will be added for reusable C++ templates in the future.
+`runner/` contains a simple local test runner. `template/` contains reusable C++ templates and complete examples.
 
 ## Using the Runner
 
