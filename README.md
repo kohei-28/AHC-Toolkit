@@ -14,11 +14,20 @@ ahc-short-toolkit/
     |   +-- hill_climb/
     |       +-- basic.cpp
     +-- long/
-        +-- state_action/
-            |-- state_action.cpp
-            +-- examples/
-                |-- ahc069_example.cpp
-                +-- ahc072_example.cpp
+        |-- state_action/
+        |   |-- state_action.cpp
+        |   +-- examples/
+        |       |-- ahc069_example.cpp
+        |       +-- ahc072_example.cpp
+        |-- beam_search/
+        |   |-- basic.cpp
+        |   |-- adaptive_draft.cpp
+        |   |-- incremental.cpp
+        |   +-- README.md
+        +-- hill_climb/
+            |-- basic.cpp
+            |-- simulated_annealing.cpp
+            +-- simulated_annealing_incremental.cpp
 ```
 
 `runner/` contains a simple local test runner. `template/` contains reusable C++ templates and complete examples.
