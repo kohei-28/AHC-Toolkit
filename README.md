@@ -1,22 +1,24 @@
 # AHC Short Toolkit
 
-A small personal toolkit for short AtCoder Heuristic Contests.
+A small personal toolkit for short and long AtCoder Heuristic Contests.
 
 ```text
 ahc-short-toolkit/
 |-- README.md
 |-- runner/
-|   `-- runner.py
-`-- template/
-    |-- state_action/
-    |   |-- state_action.cpp
-    |   `-- examples/
-    |       |-- ahc069_example.cpp
-    |       `-- ahc072_example.cpp
-    |-- beam_search/
-    |   `-- basic.cpp
-    `-- hill_climb/
-        `-- basic.cpp
+|   +-- runner.py
++-- template/
+    |-- short/
+    |   |-- beam_search/
+    |   |   +-- basic.cpp
+    |   +-- hill_climb/
+    |       +-- basic.cpp
+    +-- long/
+        +-- state_action/
+            |-- state_action.cpp
+            +-- examples/
+                |-- ahc069_example.cpp
+                +-- ahc072_example.cpp
 ```
 
 `runner/` contains a simple local test runner. `template/` contains reusable C++ templates and complete examples.
